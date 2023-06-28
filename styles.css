@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+table, th,td{
+    border: 2px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    width: 200px;
+    height: 40px;
+}
+th{
+    text-align: left;
+    background-color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#gol{
+    background-color: coral;
+}
+#kl{
+    background-color: cornflowerblue;
+}
+td{
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#km{
+    text-align: left;
+}
